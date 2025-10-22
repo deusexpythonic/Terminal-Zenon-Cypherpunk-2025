@@ -1,55 +1,38 @@
-# 1663
+# ⬛ TERMINAL ZÉNON - Cypherpunk Monomyth MVP [Solana Seeker Exclusive]
 
-This is an [Expo](https://expo.dev) project created with [
-`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+**MVP pour le Hackathon Cypherpunk 2025 | Démonstration du TEE/SeedVault**
 
-## Get started
+---
 
-1. Install dependencies
+## 🎯 OBJECTIF PRINCIPAL : Attestation Matérielle du SeedVault
 
-   ```bash
-   npm install
-   ```
+Le Terminal Zénon est une DApp monolithique exclusive au Solana Seeker. Il implémente une quête initiatique (Appel, Épreuve, Retour) pour prouver la souveraineté cryptographique via le **Trusted Execution Environment (TEE)** et le **SeedVault**.
 
-2. Start the app
+### 🔑 Preuve Critique de la Démonstration (Double Biométrie)
 
-   ```bash
-   npx expo start
-   ```
+Le MVP valide la double utilisation biométrique du TEE, impossible sur un téléphone standard :
 
-In the output, you'll find options to open the app in a
+| Étape | Action | Preuve TEE/Biométrique |
+| :--- | :--- | :--- |
+| **I. L'Appel** | `INITIER LE PROTOCOLE` | **1ère Validation Biométrique** (Signature d'Attestation). |
+| **III. Le Retour** | `FIXER L'EXPÉRIENCE` | **2ème Validation Biométrique** (Simulation de l'envoi de la Transaction Soulbound). |
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+### 📖 Storytelling & Philosophie
 
-You can start developing by editing the files inside the **app** directory. This project
-uses [file-based routing](https://docs.expo.dev/router/introduction).
+Inspiré par le minimalisme brutaliste et la philosophie Cypherpunk, le Terminal Zénon utilise des **Hooks de randomisation pondérée** pour une expérience unique à chaque run (Modes **Thématique, Contrasté, Chaos**), se concentrant sur l'autonomie et la vérifiabilité.
 
-## Get a fresh project
+---
 
-When you're ready, run:
+## 🛠 ARCHITECTURE ET DÉPLOIEMENT
 
-```bash
-npm run reset-project
-```
+* **Plateforme :** Solana Mobile Stack (SMS) / Expo Development Build.
+* **Code :** Entièrement nettoyé des logs et des clés forcées.
+* **Design :** Thème Brutaliste (Noir #000000, Vert #00FF00).
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you
-can start developing.
+---
 
-## Learn more
+*(**Lien vers la Vidéo de Démo :** [https://youtube.com/shorts/0J3MY37PCww?feature=share])*
+*(**Lien vers le pitch Slides :**
+[https://docs.google.com/presentation/d/1kzxzDAl3DATZbfscLR-XParR5zEXutgEmTW33O-GY34/edit?usp=sharing])*
 
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with
-  our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll
-  create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+**Auteur :** deusexpythonic | **Dépôt :** `github.com:deusexpythonic/Terminal-Zenon-Cypherpunk-2025.git`
