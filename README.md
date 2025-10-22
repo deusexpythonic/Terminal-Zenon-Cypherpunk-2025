@@ -27,7 +27,7 @@ Inspiré par le minimalisme brutaliste et la philosophie Cypherpunk, le Terminal
 
 * **Plateforme :** Solana Mobile Stack (SMS) / Expo Development Build.
 * **Code :** Entièrement nettoyé des logs et des clés forcées.
-* **Design : Thème Brutaliste (Noir #000000, Vert Terminal #00FF00, Rouge Alerte #FF0000).
+* **Design :** Thème Brutaliste (Noir #000000, Vert Terminal #00FF00, Rouge Alerte #FF0000).
 
 ---
 
